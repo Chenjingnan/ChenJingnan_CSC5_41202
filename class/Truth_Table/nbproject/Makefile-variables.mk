@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=savitch_chap_1_prob_14
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/savitch_chap_1_prob_14
+CND_ARTIFACT_NAME_Debug=truth_table
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/truth_table
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=savitchchap1prob14.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/savitchchap1prob14.tar
+CND_PACKAGE_NAME_Debug=truthtable.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/truthtable.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=savitch_chap_1_prob_14
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/savitch_chap_1_prob_14
+CND_ARTIFACT_NAME_Release=truth_table
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/truth_table
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=savitchchap1prob14.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/savitchchap1prob14.tar
+CND_PACKAGE_NAME_Release=truthtable.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/truthtable.tar
 #
 # include compiler specific variables
 #

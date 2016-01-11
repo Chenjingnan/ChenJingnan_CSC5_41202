@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=savitch chap 1 prob 14
+PROJECTNAME=Truth_Table
 
 # Active Configuration
 DEFAULTCONF=Debug

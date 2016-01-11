@@ -12,7 +12,7 @@
 
 //Global Constant
 const char wtbill=1;//Weight in grams
-const float cnvLbs=1.Of/453.5f;//Conversion from grams to lbs
+const float cnvLbs=1.0f/453.5f;//Conversion from grams to lbs
 
 //Function Prototypes
 
