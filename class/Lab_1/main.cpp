@@ -17,30 +17,15 @@ using namespace std;
 
 //Execution Begins Here
 int main(int argc, char** argv) {
-    //Declare and initialize variables
-    int score1=80;
-    int score2=60;
-    bool x=true;
-    bool y=false;
+    unsigned char pf=70;//Pass-Fail point=70%
+    unsigned short score;//Score
     
-    //Create Heading
-    score1=x;
-    score2=y;
-    x>70;
-    y<70;   
+    cout<<"Input the score for pass-fail "<<endl;
+    cin>>score;
     
-    //first row
-    cout<<"Score 1= "<<(score1?'T':'F')<<"  "<<endl;
-    cout<<"Score 2= "<<(score2?'T':'F')<<"  "<<endl;
-   
+    cout<<"The score is "<<static_cast<int>(score)<<"%"<<endl;
+    cout<<"You "<<(score>=pf?"Pass":"Fail")<<endl;
     
-  
-    //Swap using temp
-    
-    //Swap using exclusive or operator
-    
-    
-    //Exit stage right
     return 0;
 }
 
