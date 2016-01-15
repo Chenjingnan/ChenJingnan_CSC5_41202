@@ -2,7 +2,7 @@
     File:   main.cpp
     Author: Jingnan Chen
     Created on January 13, 2016, 08:30 AM
-    Purpose:Interest Payment
+    Purpose: Monthly Payment
  */
 
 //System Libraries
