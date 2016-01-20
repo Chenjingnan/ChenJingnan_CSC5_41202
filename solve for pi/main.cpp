@@ -14,30 +14,38 @@ using namespace std;
 //User Libraries
 
 //Global Constant
+const float PI=4*atan(1);
 
 //Function Prototypes
 
 //Execution Begins Here
 int main(int argc, char** argv){
-    const unsigned char nTerms=13;
-    float etox=1,x;//e^x
-    //input the value x
-    cout<<"Input x of e^x computation"<<endl;
-    cin>>x;
+    
+    cout<<endl<<"The finite sum for PI"<<endl;
+    
+   
+    float apprxPI=1;//approximate value of PI to start
+    unsigned int nTerms;
+    char sign=-1;//alternating sign of the PI sequence
+    
+    cout<<"Input number of Terms to approximate PI"<<endl<<endl;
+    cin>>nTerms;
+    
+    
     
     //calculate e^x
-    for (int n=1; n<=nTerms; n++){
-        unsigned int factN=1;
-        for (int i=1;i<=n;i++){
-            factN*=i;
-        }
-        //calculate e^x with the above factorial
-        etox+=pow(x,n)/factN;
+    for (int i=2,j=3; i<=nTerms; i++,j+=2){
+        apprxPI+=(sign/static_cast<float>(j));
+        sign*=-1;
+                
     }
     
-    cout<<"The exact value of e^"<<x<<"="<<exp(x)<<endl;
-    cout<<"The approx value of e^"<<x<<"="<<etox<<endl;
-        
+    apprxPI*=4;//multiply by 4 once to approximate PI
+    
+    cout<<"The exact value of PI= "<<PI<<endl;
+    cout<<"The number of terms it took to approx PI= "<<nTerms<<endl;
+    
+    
    //Exit stage right
     return 0;
 
