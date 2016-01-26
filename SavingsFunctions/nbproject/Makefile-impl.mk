@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=savings
+PROJECTNAME=SavingsFunctions
 
 # Active Configuration
 DEFAULTCONF=Debug
